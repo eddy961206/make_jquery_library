@@ -41,6 +41,7 @@
 
     // `init`의 프로토타입을 `jQuery.fn`과 연결 (핵심 패턴)
     jQuery.fn.init.prototype = jQuery.fn;
+    // init로 생성된 객체(new jQuery.fn.init())가 jQuery.fn을 프로토타입으로 상속받
 
     return jQuery;
 });
